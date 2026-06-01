@@ -53,4 +53,7 @@ int main()
             
             cout << baris << endl;
 
-            
+        }
+        //menutup file jika telah selesai di loop
+        infile.close();
+    }
